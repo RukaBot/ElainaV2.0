@@ -7,7 +7,7 @@
 
 
 <p align="center">
-<a href="#"><img title="ELAINA BOT" src="https://img.shields.io/badge/AR15BOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title="ELAINA BOT" src="https://img.shields.io/badge/Elaina-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
 <p align="center">
 <a href="https://github.com/A187ID"><img title="Author" src="https://img.shields.io/badge/AUTHOR-Iky ID-orange.svg?style=for-the-badge&logo=github"></a>
@@ -29,10 +29,10 @@
 </details>
 
 ### WARNING
-MAU RE-UPLOAD SCRIPT? KASIH NAMA/LINK CHANEL SAYA.... DILARANG UBAH INFO!!!
+KLO GA PAHAM YA JANGAN NGOPY BOT GW AJG
 
 ## NOTE:> 
-SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% GRATIS BUAT KALIAN PENGGUNA TERMUX
+SCRIPTNYA JANGAN DI JUAL/BELI KAN.. SCRIPT INI 100% BAYAR TOD USAHA KNTL
 </div>
 
 ### ALAT DAN BAHAN <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Mario_Hello_Big.gif" width="29px">
@@ -48,7 +48,7 @@ Siapin alat dan bahannya.
 ```
 
 ### CARA INSTALLNYA  <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/hmm.gif" width="29px">
-Script ini di modifikasi sama saya sendiri Aris187 ID.
+Script ini di modifikasi sama saya sendiri
 ```bash
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
