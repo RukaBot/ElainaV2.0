@@ -13,7 +13,7 @@ const moment = require("moment-timezone")
 const fs = require("fs")
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:Iky\n' // full name
+            + 'FN:Sendi\n' // full name
             + 'ORG:Creator Elaina;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=6283159449440:+62 831-5944-9440\n' // WhatsApp ID + phone number
             + 'END:VCARD'
@@ -24,12 +24,12 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: 'ELAINA BOT',
+    A187: 'Tetsu-bot',
     instagram: 'https://instagram.com/sndrzqy_',
-    nomer: 'wa.me/6283159449440',
+    nomer: 'wa.me/6281382914145',
     aktif: 'Tergantung Server',
     youtube: 'Unknown People',
-    whatsapp: 'https://instagram.com/sndrzqy_',
+    whatsapp: 'wa.me/6281382914145',
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
     waktu: time
 }
@@ -129,7 +129,7 @@ const client = new WAConnection()
 
 client.on('qr', qr => {
    qrcode.generate(qr, { small: true })
-   console.log(`[ ${time} ] QR code is ready, subscribe Aris187 ID`)
+   console.log(`[ ${time} ] QR code is ready, subscribe Unknown People`)
 })
 
 client.on('credentials-updated', () => {
@@ -147,7 +147,7 @@ client.connect();
 
 client.on('message-status-update', json => {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${time} ] => bot by ig:@_sadboy.ig`)
+   console.log(`[ ${time} ] => bot by ig:@sndrzqy_`)
 })
 
 client.on('message-new', async (m) => {
@@ -180,7 +180,7 @@ client.on('message-new', async (m) => {
        case 'nulis':
            nulis(value)
                .then(data => {
-                   client.sendMessage(id, '[❗] WAIT BOSQ🖤',MessageType.text)
+                   client.sendMessage(id, '[❗] WAIT BANH',MessageType.text)
                    client.sendMessage(id, data ,MessageType.image)
                })
                .catch(err => {
